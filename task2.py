@@ -21,8 +21,8 @@ def send_code(reciever_email,window):
     msg = "Your OTP verification code is " + otp
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
-    email = "jhonassintayehu@gmail.com"
-    password = "pphcgwqowpbcgilk"
+    email = "user_email"
+    password = "Email_app_password"
     try:
         server.login(email,password)
     except:
